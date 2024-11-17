@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.css"
+        integrity="sha512-8BU3emz11z9iF75b10oPjjpamM4Mz23yQFQymbtwyPN3mNWHxpgeqyrYnkIUP6A8KyAj5k2p3MiYLtYqew7gIw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        table {
+            border: 1px solid;
+            border-collapse: collapse;
+            border-color: rebeccapurple;
+        }
+
+        th {
+            border: 1px solid;
+            border-color: rgb(66, 108, 3);
+            padding: 15px;
+            background-color: antiquewhite;
+            color: brown;
+        }
+
+        td {
+
+            border: 1px solid;
+            border-color: rgb(134, 4, 4);
+            padding: 15px;
+        }
+
+        td.td1 {
+            background-color: rgb(153, 181, 242);
+        }
+
+        td.td2 {
+            background-color: rgb(168, 193, 246);
+        }
+
+        td.td3 {
+            background-color: rgb(182, 201, 243);
+        }
+
+        td.td4 {
+            background-color: rgb(215, 225, 244);
+        }
+        td.td5 {
+            background-color: rgb(215, 225, 244);
+        }
+    </style>
+    <title>New Table Design</title>
+</head>
+
+<body>
+    <h1>Table Design Example</h1>
+    <hr><br>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Contact No</th>
+            <th colspan="2">Photo & Age</th>
+            <!-- <th>Age</th> -->
+        </tr>
+        <tr>
+            <td class="td1">Rokon</td>
+            <td class="td1"><i class="fa-solid fa-envelope"></i> rarokon@gmail.com</td>
+            <td class="td1"><i class="fa-solid fa-phone"></i>+2252858552</td>
+            <td class="td1"><i class="fa-solid fa-user"></i></td>
+            <td class="td1">40</td>
+        </tr>
+        <tr>
+            <td class="td2">Mizan</td>
+            <td class="td2"><i class="fa-solid fa-envelope"></i> mizan@gmail.com</td>
+            <td class="td2"><i class="fa-solid fa-phone"></i>+8225255</td>
+            <td class="td2"><i class="fa-solid fa-user"></i></td>
+            <td class="td2">42</td>
+        </tr>
+        <tr>
+            <td class="td3">Sumon</td>
+            <td class="td3"><i class="fa-solid fa-envelope"></i> sumon@gmail.com</td>
+            <td class="td3"><i class="fa-solid fa-phone"></i> +852256554</td>
+            <td class="td3"><i class="fa-solid fa-user"></i></td>
+            <td class="td3">25</td>
+        </tr>
+        <tr>
+            <td class="td4" rowspan="2">Khalid</td>
+            <td class="td4"><i class="fa-solid fa-envelope"></i> sumon@gmail.com</td>
+            <td class="td4"><i class="fa-solid fa-phone"></i></i>+852256554</td>
+            <td class="td4"><i class="fa-solid fa-user"></i></td>
+            <td class="td4">25</td>
+        </tr>
+        <tr>
+            <!-- <td style="background-color: rgb(215, 225, 244)">Saifullah</td> -->
+            <td class="td5"><i class="fa-solid fa-envelope"></i> sumon@gmail.com</td>
+            <td class="td5"><i class="fa-solid fa-phone"></i>+852256554</td>
+            <td class="td5"><i class="fa-solid fa-user"></i></td>
+            <td class="td5">25</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+</body>
+
+</html>
